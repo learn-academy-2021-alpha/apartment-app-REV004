@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import toast from "../assets/toast-toes.jpeg";
 
 class Home extends Component {
 	render() {

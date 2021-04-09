@@ -34,7 +34,7 @@ class Edit extends Component {
 	render() {
 		return (
 			<>
-				<h3>Add an Apartment</h3>
+				<h1>Update the Apartment</h1>
 				<div className='form-container'>
 					<div className='form'>
 						<Form>
@@ -120,7 +120,7 @@ class Edit extends Component {
 						</Form>
 					</div>
 				</div>
-				{this.state.submitted && <Redirect to='/myapartments' />}
+				{this.state.submitted && <Redirect to='/apartments' />}
 			</>
 		);
 	}
